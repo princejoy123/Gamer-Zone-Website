@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Complate nav section */
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 50px;
+    padding: 10px;
+   
+}
+
+.Gamer-text {
+    display: flex;
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    gap: 20px;
+ 
+
+}
+
+#G {
+    color: deeppink;
+    
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+   
+}
+.nav-bar{
+    margin-right: 20px;
+   
+}
+
+.icons {
+    background-color:darkgrey;
+    margin-left: 30px;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Styles header section */
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/Group\ 14.png');
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header{
+    display: flex;
+}
+.header-title{
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.btn-primary{
+    background-color: #F948B2;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+.btn-2{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+/* Styles Main Section */
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
